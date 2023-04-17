@@ -25,6 +25,8 @@
         <select name="operator">
            
         <option>None</option> 
+            <option></option>
+            <option>None</option>
             <option>Add</option> 
             <option>Subtract </option> 
             <option>Multiply </option> 
@@ -54,6 +56,8 @@
                     case "Divide":
                         echo $result1 / $result2;
                         break;
+                    default:
+                       echo "Empty option selected";
                 }
             }
    ?>
